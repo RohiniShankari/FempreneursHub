@@ -1,0 +1,27 @@
+.navbar {
+  margin: 16px 0;
+}
+
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-buttons {
+  margin-left: auto;
+}
+
+.product-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
